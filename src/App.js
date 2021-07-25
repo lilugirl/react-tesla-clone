@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './compnents/Header'
 import Home from './compnents/Home'
@@ -9,7 +7,7 @@ import Home from './compnents/Home'
 function App() {
   return (
     <div className="App">
-    {/* <Header /> */}
+    <Header />
     <Home />
     </div>
   );
